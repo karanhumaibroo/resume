@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfilo website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,  400&display=swap"rel="stylesheet">
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+
+        }
+
+        body {
+            background-color: rgb(9, 37, 37);
+            color: beige;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(18, 54, 54);
+            height: 70px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0px 23px;
+        }
+        nav ul li a{
+            color: antiquewhite;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        nav ul li a:hover{
+            color: rgb(141, 91, 27);
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            align-items: center;
+            margin: 60px 0;
+        }
+        .firstsection > div{
+            width: 30%;
+            
+        }
+        .leftsection{
+             /* background-color: red;  */
+            font-size: 2.5rem;
+            
+
+        }
+        .rightsection img{
+            
+            width: 120%;
+           margin: 50px 0;
+           
+        }
+        .purple{
+            color: aqua;
+        }
+        #element{
+            color: aqua;
+            
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        main hr{
+            border: 0;
+            background: aquamarine;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .secondsection h2{
+            font-size: 2rem;
+        }
+        .textgray{
+            color: aqua;
+        }
+        .secondsection .box{
+            background: white;
+            width:84vw ;
+            height:2px ;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+          height: 93px;
+          width: 1px;
+          background-color: beige;
+          margin: 0 93px;
+        }
+        .image-top{
+            width: 33px;
+            position: relative;
+            top: -32px;
+            width: -9px;
+        }
+        .vertical-title{
+           position: relative;
+           top:55px ;
+           width:150px ;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 60px;
+            color: aquamarine;
+            font-size: 9px;
+            width: 150px;
+        }
+        footer{
+            background-color: rgb(14, 68, 70);
+            
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer>div{
+            width: 220px;
+        }
+        footer .hello{
+            text-align: center;
+            color: rgb(28, 26, 26);
+            padding: 12px 0;
+        }
+        .leftsection .btn{
+            color: blueviolet;
+            padding: 6px;
+            border-radius: 23px;
+            border: 2px solid wheat;
+            cursor: pointer;
+        }
+        .leftsection .button{
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Adarsh Portfilo</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Web Development</a></li>
+                   
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii, My Name is <span class="purple">Ada</span><div>and I am a Passionate </div> <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="adityaaaaa.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgray">What i have done so far</span>
+            <h2>Work Experience</h2>
+            <div class="box">
+                <div class="vertical"><img src="acro.jpg" alt="" class="image-top">
+                <div class="vertical-title">HTML Developer (2015-17)</div>
+                <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis corrupti placeat fugit, laudantium quae accusamus, dolores maxime repellat, quo iste dolor repudiandae.</div>
+                </div>
+            
+                <div class="vertical"><img src="acro.jpg" alt="" class="image-top">
+                <div class="vertical-title">Nodejs Developer (2015-17)</div>
+                <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis corrupti placeat fugit, laudantium quae accusamus, dolores maxime repellat, quo iste dolor repudiandae.</div>
+                </div>
+            
+                <div class="vertical"><img src="acro.jpg" alt="" class="image-top">
+                <div class="vertical-title">JAVA Developer (2015-17)</div>
+                <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis corrupti placeat fugit, laudantium quae accusamus, dolores maxime repellat, quo iste dolor repudiandae.</div>
+                </div>
+          
+                <div class="vertical"><img src="acro.jpg" alt="" class="image-top">
+                <div class="vertical-title">Python Developer (2015-17)</div>
+                <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis corrupti placeat fugit, laudantium quae accusamus, dolores maxime repellat, quo iste dolor repudiandae.</div>
+                </div>
+                <div class="vertical"><img src="acro.jpg" alt="" class="image-top">
+                <div class="vertical-title">C++ Developer (2015-17)</div>
+                <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis corrupti placeat fugit, laudantium quae accusamus, dolores maxime repellat, quo iste dolor repudiandae.</div>
+                </div>
+            
+                <div class="vertical"><img src="acro.jpg" alt="" class="image-top">
+                <div class="vertical-title">C Developer (2015-17)</div>
+                <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis corrupti placeat fugit, laudantium quae accusamus, dolores maxime repellat, quo iste dolor repudiandae.</div>
+                </div>
+            
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Adarsh Developer Portfilo</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Class</li>
+                    <li>Section</li>
+                    <li>Roll no</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                 <ul><li>Home</li>
+                    <li>Class</li>
+                    <li>Section</li>
+                    <li>Roll no</li>
+                    </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul><li>Home</li>
+               <li>Class</li>
+                <li>Section</li>
+                <li>Roll no</li>
+            </ul></div>
+        </div>
+        <div class="hello">
+            www.adarshportfolio.com|All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- Element to contain animated typing -->
+  
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Web Developer,</i> ', ' <i>Graphic Designer</i>'],
+      typeSpeed: 30,
+    });
+  </script>
+</body>
+</body>
+
+</html>
